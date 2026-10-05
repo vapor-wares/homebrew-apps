@@ -1,0 +1,24 @@
+{
+  "BeadsIssue": "0.1.0",
+  "schemaVersion": "0.1.0",
+  "id": "MIGRATION-VAPOR-WARES-CASKS-HOMEBREW-APPS-DIVISION-2026-10-05",
+  "title": "Move Vapor Wares cask truth into the homebrew-apps division",
+  "status": "in-progress",
+  "priority": 1,
+  "issueType": "migration",
+  "labels": [
+    "vapor-wares",
+    "coordinate-shape",
+    "homebrew-apps",
+    "casks",
+    "double-gateway"
+  ],
+  "createdAt": "2026-10-05T08:30:00Z",
+  "createdBy": "codex",
+  "description": "Harvest the newer loose brew/Casks records from the Vapor Wares private arm into the declared homebrew-apps division so the double-gateway layout has one cask authority at gtwy/p/vapor-wares/p/homebrew-apps.",
+  "acceptanceCriteria": [
+    "homebrew-apps carries the current vapor-wares and hello-world-google cask records from the loose brew folder.",
+    "homebrew-apps includes the hello-world cask that only existed in the loose brew folder.",
+    "The old loose brew folder can be removed from the Vapor Wares private arm after the leaf commit lands."
+  ]
+}
